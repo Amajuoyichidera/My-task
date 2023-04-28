@@ -15,17 +15,17 @@ body {
   padding-bottom: 30px;
 }
 .myPost {
-  margin: 20px;
+  margin: 50px;
   padding: 50px;
   border-radius: 20px;
   cursor: pointer;
   transition: transform ease 300ms;
-}
-.myPost:hover{
   background-color: white;
-  border-bottom: 6px solid #1370B5;
+  border-bottom: 7px solid #1370B5;
   transition: 0.5s ease-in-out;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-  transform:  translate(0, -20px);
   background-image: url(../assets/pattern-1.png);
+}
+.myPost:hover{
+  transform:  translate(0, -30px); 
 }
