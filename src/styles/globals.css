@@ -25,7 +25,6 @@ body {
   border-bottom: 7px solid #1370B5;
   transition: 0.5s ease-in-out;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-  background-image: url(/public/pattern-1.png);
 }
 .myPost:hover{
   transform:  translate(0, -30px); 
